@@ -15,7 +15,7 @@ A very powerful yet quick Recon Tool written by Black Hat Ethical Hacking
 
 ### **Double Action: Passive and Active combined and Probed**
 
-<img src="https://giphy.com/clips/cwkungfu-kung-fu-the-cw-ZmWqQN9eB8eElM9ldJ" alt="Looks like it's Recon Time!">
+![Looks like it's Recon Time!](https://giphy.com/clips/cwkungfu-kung-fu-the-cw-ZmWqQN9eB8eElM9ldJ)
 
 The idea is, you need to perform this once, then after you have the final URLs, you can use things like gf patterns from the URLs you fetched, to plan your next attack vectors. For examples you can use cariddi to find secrets, Nuclei on specific templates, Dalfox to find XSS Injection, SQLMap to find SQLi Injections, SSRF, Open Redirect or just manual exploration.
 
