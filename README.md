@@ -32,6 +32,8 @@ Recon is the most important part, if you want to one-line all that so you can th
 
 `./fetchmeurls.sh`
 
+Once the results are saved, make sure to check this: `final_urls_probed_for_domainname.txt`.
+
 # Requirements
 
 You need to have:
