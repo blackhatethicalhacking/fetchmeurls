@@ -59,7 +59,7 @@ for domain in "${domains[@]}"; do
   # Perform gobuster with the provided wordlist
   echo "Starting Active URLs fetching..." | lolcat
   sleep 2
-  gobuster dir -u "https://$domain" --wildcard -w "$wordlist" | tee "$domain/gobuster_output.txt"
+  gobuster dir -u "https://$domain" --wildcard -w "$wordlist" --quiet  -o "$domain/gobuster_output.txt"
 
   # Perform waybackurls scan
    echo "Starting Passive URLs fetching..." | lolcat
