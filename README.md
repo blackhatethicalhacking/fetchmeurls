@@ -18,7 +18,9 @@ A very powerful yet quick Recon Tool written by Black Hat Ethical Hacking
 ![Looks like it's Recon time!](https://github.com/blackhatethicalhacking/fetchmeurls/assets/13942386/cfaab7b8-8d85-4316-a354-562031ca703b)
 
 
-The idea is, you need to perform this once, then after you have the final URLs, you can use things like gf patterns from the URLs you fetched, to plan your next attack vectors. For examples you can use cariddi to find secrets, Nuclei on specific templates, Dalfox to find XSS Injection, SQLMap to find SQLi Injections, SSRF, Open Redirect or just manual exploration.
+The idea is, you need to perform this once, then after you have the final URLs, you can use things like gf patterns from the URLs you fetched, to plan your next attack vectors. For examples you can use cariddi to find secrets, Nuclei on specific templates, Dalfox to find XSS Injection, SQLMap to find SQLi Injections, SSRF, Open Redirect, Website screenshots or just manual exploration.
+
+Because it allows you to choose a custom wordlist, you have the flexibility to choose small, medium or big wordlists for the active fuzzing part with Gobuster, as this takes time but gets you more results than passive, you control the time because you provide the wordlist according to your needs. Can work well with SecLists too.
 
 Recon is the most important part, if you want to one-line all that so you can then focus on the attack Vectors, this tool will help you do that accurately and does what it says it does.
 
