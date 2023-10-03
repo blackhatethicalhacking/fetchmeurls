@@ -47,6 +47,8 @@ Make sure to have these 3 installed, before you run our Tool. It works on Debian
 
 ![fetchmeurls](https://github.com/blackhatethicalhacking/fetchmeurls/assets/13942386/b386407b-d741-4115-b1e7-965a112e3780)
 
+![fetchmeurls2](https://github.com/blackhatethicalhacking/fetchmeurls/assets/13942386/da3b5e09-3642-427c-b065-e4395ec349c0)
+
 
 # Updates
 
