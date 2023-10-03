@@ -1,4 +1,4 @@
-# FetchmeURLs by BHEH 
+# fetchmeurls by BHEH 
 
 
 <p align="center">
@@ -14,6 +14,8 @@ A very powerful yet quick Recon Tool written by Black Hat Ethical Hacking
 **FetchmeURLs** is a Powerful Recon Tool written by Chris 'SaintDruG' Abou-Chabké from Black Hat Ethical Hacking, designed for Bug Bounty Hunters to quickly fetch URLs for multiple domains as part of a small or large scope actively and passively. It uses **Waybackurls** and **GoBuster** to fetch URLs, combining both powers Active / Passive and then pipes the results after saving them into a new file probing each one using **httpx**. It will also display the status and progress such as how many URLs it found before and after the probing is done so that the user is aware what sort of attack vectors they can use after the Recon has been done.
 
 ### **Double Action: Passive and Active combined and Probed**
+
+<img src="https://giphy.com/clips/cwkungfu-kung-fu-the-cw-ZmWqQN9eB8eElM9ldJ" alt="Looks like it's Recon Time!">
 
 The idea is, you need to perform this once, then after you have the final URLs, you can use things like gf patterns from the URLs you fetched, to plan your next attack vectors. For examples you can use cariddi to find secrets, Nuclei on specific templates, Dalfox to find XSS Injection, SQLMap to find SQLi Injections, SSRF, Open Redirect or just manual exploration.
 
