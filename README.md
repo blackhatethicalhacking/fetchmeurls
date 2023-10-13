@@ -45,7 +45,7 @@ You need to have:
 - [gobuster](https://github.com/OJ/gobuster)
 - [lolcat](https://github.com/busyloop/lolcat)
 
-Make sure to have these 3 installed, before you run our Tool. It works on Debian, MacOS, Ubuntu, Kali Linux, Parrot.
+Make sure to have these 4 installed, before you run our Tool. It works on Debian, MacOS, Ubuntu, Kali Linux, Parrot.
 
 # Screenshots
 
