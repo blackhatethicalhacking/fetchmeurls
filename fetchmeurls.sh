@@ -87,5 +87,6 @@ for domain in "${domains[@]}"; do
   # clean all lines and duplicates from results
 echo "Cleaning, Analyzing please wait..." | lolcat
 sed '/^$/d' "$domain/final_urls_probed_for_$domain.txt" > "$domain/final_urls_clean_for_$domain.txt"
-echo "Final results saved to: $domain/final_urls_clean_for_$domain.txt"
+cat "final_urls_clean_for_$domain.txt" | httpx -verbose > "$domain/golden_urls_for_$domain.txt"
+echo "Final results saved to: $domain/golden_urls_for_$domain.txt"
 done
